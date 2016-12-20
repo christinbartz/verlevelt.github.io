@@ -432,10 +432,58 @@ margin-top:-35px;
 		left:0;
 		right:0;
 	}
+
 }
 /*********************Responsive Stufe 4********************/
+@media screen and (max-width:620px){
+	footer .img-responsive{
+	display:none;
+	}
+	footer .col-xs-10{
+		width:100%;
+	}
+	#footer-nav{
+		margin-top:0px; 
+	}
+}
+/*********************Responsive Stufe 5********************/
+@media screen and (max-width:570px){
+
+	/********Kontakt**********/
+	.frame a:hover span.versteckt{
+		font-size:0px;
+		padding-right:0px;
+	}
+	
+	/*********Footer**********/
+	footer{
+		background-size:300px, 100% 100%;
+	}
+	#footer-nav{
+		float:none !important; 
+	}
+	#footer-nav li{
+		display:block;
+		text-align: center; 
+	}
+	#footer-nav li:before{
+		display:none; 
+	}
+}
+
+/*********************Responsive Stufe 6********************/
 @media screen and (max-width:390px){
 	h1{
 		font-size:35px;
+	}
+	
+	/**********Kontakt**********/
+	#contact{
+		background-size:400px;
+		background-position:100% 50px; 
+	}
+	
+	footer{
+		background-size:200px, 100% 100%;
 	}
 }
