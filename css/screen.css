@@ -339,3 +339,103 @@ margin-top:-35px;
 {
 	text-decoration:none; 
 }
+
+
+/*********************Responsive Stufe 1********************/
+@media screen and (max-width:1200px){
+	
+	/*********Header*********/
+	#banner-name{
+		font-size:30px; 
+	}
+	#banner-sub{
+		font-size:50px;
+	}
+}
+
+/*********************Responsive Stufe 2********************/
+@media screen and (max-width:990px){
+	/*********Header*********/
+	header .img-responsive{
+		height:200px;
+		margin: 0 auto;
+	}
+	div.logo{
+		top: -150px;
+	}
+	header .jumbotron{
+		text-align: center; 
+		padding:20px;
+		margin-top:20px;
+	}
+	#banner-sub{
+		float:none; 
+	}
+	
+	/*********Navigation**********/
+	#nav{
+		top:0;
+		width:300px;
+		margin-top:15px;
+		margin-left:15px;
+		position:absolute; 
+		
+	}
+	#nav li{
+		width:50px;
+		left:0px; 
+		display:inline; 
+		background:none; 
+	}
+	.vanish{
+		display:none;
+	}
+	.ico-nav{
+		float:none; 
+		line-height:30px;
+	}
+	#nav div{
+		padding-top:18px;
+		padding-bottom:18px;
+		padding-left:20px;
+		padding-right:20px; 
+		display:inline;
+		background:#2E9398;
+		border-radius:100px; 
+	}
+	#nav li:hover div{
+		padding-top:18px;
+		padding-bottom:18px;
+		padding-left:20px;
+		padding-right:20px;
+	}
+}
+/*********************Responsive Stufe 3********************/
+@media screen and (max-width:830px){
+
+	/*********Header***********/
+	header .img-responsive{
+	height:150px;
+	}
+	div.logo{
+		top: -80px;
+	}
+	header .jumbotron{
+		margin-top:10px; 
+	}
+	/*********Navigation**********/
+	#nav{
+		top:0;
+		width:300px;
+		margin: 0 auto; 
+		position:absolute; 
+		left:0;
+		right:0;
+	}
+}
+/*********************Responsive Stufe 4********************/
+@media screen and (max-width:390px){
+	h1{
+		font-size:35px;
+	}
+}
