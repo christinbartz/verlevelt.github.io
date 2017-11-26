@@ -324,8 +324,9 @@ svg path {
 #show {
     /*max-height: 400px; */
     border-radius: 100%;
-    border-left: 30px solid #ffffff;
-    border-top: 20px solid #ffffff;
+    border-left: 30px solid #2292a7;
+    border-top: 20px solid #2292a7;
+    /* border: 10px solid #2292a7; */
 }
 
 
